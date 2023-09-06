@@ -18,6 +18,7 @@ const Truck = ({ isNight }) => {
       },
     },
   };
+
   return (
     <>
       <ReactBasicScroll config={config}>

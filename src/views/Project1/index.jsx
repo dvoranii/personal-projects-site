@@ -14,19 +14,16 @@ const Project1 = () => {
   return (
     <ProjectTemplate>
       <h1 className="project--title">
-        Truck Scrolling Animation with basicScroll.js and GSAP
+        Truck Scrolling Animation with basicScroll.js
       </h1>
       <p className="project--intro">
-        This project integrates the functionality of basicScroll.js with the
-        animation capabilities of GSAP to render a truck moving across a
-        backdrop of clouds. As the user scrolls, basicScroll.js triggers the
-        animation sequences: the truck moves horizontally, and the wheels, each
-        being a separate React component, exhibit a rotation effect. The cloud
-        canvas creates a static background to highlight the truck&apos;s motion.
-        The entire animation is embedded within a React-based structure,
-        ensuring component reusability and a clean separation of concerns. The
-        project demonstrates an efficient way to combine scrolling events with
-        intricate animations in a web environment.
+        The project leverages basicScroll.js to drive a truck&apos;s horizontal
+        movement across a backdrop, created with HTML canvas. As users scroll,
+        the truck progresses and its wheels, designed as individual React
+        components, rotate. All animations are encapsulated within a React
+        framework, promoting component reusability and a structured codebase.
+        This initiative showcases the effective union of scroll-driven events
+        with web animations.
       </p>
       <br />
 
@@ -38,7 +35,7 @@ const Project1 = () => {
         |
         <div className="git--wrapper__inner">
           <div>React version:</div>
-          <GitRepoLink url="https://github.com/yourusername/yourrepository" />
+          <GitRepoLink url="https://github.com/dvoranii/personal-projects-site/tree/main/src/views/Project1" />
         </div>
       </div>
 

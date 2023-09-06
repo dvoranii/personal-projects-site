@@ -10,7 +10,7 @@ const Wheel = ({ position }) => {
     props: {
       "--rotation": {
         from: "0",
-        to: "6turn",
+        to: "8turn",
       },
     },
   };
