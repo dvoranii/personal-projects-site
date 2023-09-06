@@ -1,0 +1,8 @@
+.project--template__outer {
+  width: 100vw;
+}
+
+.project--content {
+  max-width: 1200px;
+  margin: auto;
+}

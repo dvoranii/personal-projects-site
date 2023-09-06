@@ -1,0 +1,22 @@
+.git-repo {
+  display: flex;
+  align-items: center;
+}
+
+.git-repo img {
+  padding-right: 10px;
+}
+
+.git-repo a {
+  color: #4078c0;
+  text-decoration: none;
+  border: 1px solid #4078c0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.git-repo a:hover {
+  background-color: #4078c0;
+  color: white;
+}

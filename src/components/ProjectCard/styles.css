@@ -1,0 +1,21 @@
+.project--card {
+  border: 1px solid black;
+}
+
+.project--card img {
+  max-width: 100%;
+}
+
+.project--card img:hover {
+  cursor: pointer;
+}
+
+.project--card__title {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.project--card__description {
+  padding: 20px;
+}

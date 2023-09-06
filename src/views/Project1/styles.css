@@ -1,0 +1,41 @@
+.project--title {
+  font-size: 2.4rem;
+}
+
+.project--intro {
+  margin-top: 1.2rem;
+  line-height: 1.25;
+}
+
+.truck--wrapper {
+  border: 1px solid black;
+}
+.truck--spacer__1 {
+  margin-top: 80vh;
+}
+
+.truck--spacer__2 {
+  margin-top: 50vh;
+}
+
+.set-night-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.set-night-wrapper input {
+  margin-left: 4px;
+}
+
+.git--wrapper__inner {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.git--wrapper__outer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

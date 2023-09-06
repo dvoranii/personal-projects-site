@@ -1,0 +1,8 @@
+#cloudCanvas {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: -40%;
+  left: 0;
+  z-index: -1;
+}

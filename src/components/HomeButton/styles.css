@@ -1,0 +1,12 @@
+.home--btn__wrapper {
+  padding: 20px;
+}
+
+.home--btn {
+  color: black;
+  transition: all 150ms ease;
+}
+
+.home--btn:hover {
+  color: gray;
+}

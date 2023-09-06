@@ -1,0 +1,113 @@
+.truck--element {
+  transform: translateX(var(--my-prop));
+  transition: transform 200ms linear;
+  will-change: transform;
+  position: relative;
+}
+
+.truck--bg__outer {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.truck--bg__inner {
+  background: url("../../assets/images/side-road-view.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+  margin-top: 80px;
+}
+
+.truck--highBeamLight {
+  position: absolute;
+  top: 48.2%;
+  right: -42%;
+  width: 43.4%;
+  height: 30%;
+  background-color: #fffffffa;
+  opacity: 0.5;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  clip-path: polygon(0 57%, 100% 12%, 100% 91%, 0 57%);
+  box-shadow: 0 0 50px 20px #fff, 0 0 50px 20px #fff;
+  filter: brightness(1.8) sepia(0.6) saturate(1.5);
+}
+.truck--highBeamLight.hidden {
+  display: none;
+}
+
+.truck--element > img {
+  width: 100%;
+}
+
+.wheel1,
+.wheel2,
+.wheel3,
+.wheel4,
+.wheel5 {
+  position: absolute;
+  height: 7%;
+  width: 6.3%;
+  transform-origin: center;
+}
+
+.wheel1 {
+  bottom: 17.6%;
+  left: 18%;
+  transform: rotate(63deg);
+}
+
+.wheel2 {
+  bottom: 21.7%;
+  left: 24.3%;
+  transform: rotate(20deg);
+}
+
+.wheel3 {
+  bottom: 14.4%;
+  left: 32.8%;
+  transform: rotate(97deg);
+}
+.wheel4 {
+  bottom: 14.4%;
+  left: 67.8%;
+  transform: rotate(97deg);
+}
+.wheel5 {
+  bottom: 14.4%;
+  left: 90.1%;
+  transform: rotate(97deg);
+}
+
+.wheel1-wrapper,
+.wheel2-wrapper,
+.wheel3-wrapper,
+.wheel4-wrapper,
+.wheel5-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+.wheel1-wrapper > img,
+.wheel2-wrapper > img,
+.wheel3-wrapper > img,
+.wheel4-wrapper > img,
+.wheel5-wrapper > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(var(--rotation));
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
