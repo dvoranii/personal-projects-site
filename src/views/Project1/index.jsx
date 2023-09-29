@@ -1,10 +1,12 @@
 import "./styles.css";
 import { useState } from "react";
 import ProjectTemplate from "../../components/ProjectTemplate";
+import projectData from "../../data/projectData.js";
 import Truck from "./components/Truck";
 import GitRepoLink from "../../components/GitRepo";
 
 const Project1 = () => {
+  const project = projectData.find((p) => p.titleURL === "project1");
   const [isNight, setIsNight] = useState(false);
 
   const handleToggleNight = () => {
@@ -13,18 +15,8 @@ const Project1 = () => {
 
   return (
     <ProjectTemplate>
-      <h1 className="project--title">
-        Truck Scrolling Animation with basicScroll.js
-      </h1>
-      <p className="project--intro">
-        The project leverages basicScroll.js to drive a truck&apos;s horizontal
-        movement across a backdrop, created with HTML canvas. As users scroll,
-        the truck progresses and its wheels, designed as individual React
-        components, rotate. All animations are encapsulated within a React
-        framework, promoting component reusability and a structured codebase.
-        This initiative showcases the effective union of scroll-driven events
-        with web animations.
-      </p>
+      <h1 className="project--title">{project.title}</h1>
+      <p className="project--intro">{project.description}</p>
       <br />
 
       <div className="git--wrapper__outer">

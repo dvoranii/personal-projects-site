@@ -19,3 +19,14 @@
 .project--card__description {
   padding: 20px;
 }
+
+.project--card__see-more {
+  color: blue;
+  text-decoration: underline;
+  transition: all 150ms ease;
+}
+
+.project--card__see-more:hover {
+  cursor: pointer;
+  color: purple;
+}

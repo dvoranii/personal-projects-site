@@ -1,5 +1,5 @@
 import "./styles.css";
-import GithubLogo from "../../assets/github-logo.png";
+import GithubLogo from "/assets/github-logo.png";
 // eslint-disable-next-line react/prop-types
 const GitRepoLink = ({ url }) => {
   return (
