@@ -3,6 +3,7 @@ import Home from "./views/Home";
 import Project1 from "./views/Project1";
 import Project2 from "./views/Project2";
 import "./global.css";
+// import { Helmet } from "react-helmet";
 
 const App = () => {
   return (

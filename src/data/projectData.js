@@ -14,7 +14,7 @@ const projectData = [
     title: `Custom Web Component - Video Player`,
     titleURL: "project2",
     thumbnail: project2Thumb,
-    description: "Project 2 description here.",
+    description: `This video player is a custom-built web component crafted using vanilla JavaScript and the lit-html library, which offers efficient, expressive, and extensible templates. Instead of relying on out-of-the-box solutions, I took the challenge to build a video player from scratch to understand the intricacies and nuances of media playback in web browsers.`,
   },
 ];
 
