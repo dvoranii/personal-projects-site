@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 .home--wrapper {
   height: 100vh;
   width: 100vw;
+  background: rgb(255, 255, 250);
 }
 
 .home--title {
   text-align: center;
   padding-top: 24px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .home--project-grid {

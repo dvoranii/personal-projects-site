@@ -52,11 +52,17 @@ const Project2 = () => {
       <br />
 
       <div className="links--wrapper">
-        <GitRepoLink url="https://github.com/dvoranii/video-player-component-v2" />{" "}
+        <GitRepoLink url="https://github.com/dvoranii/video-player-component-v2" />
         |
         <div className="vercel--wrapper">
           <img src={VercelLogo} alt="" />
-          <a href="">Full deployment</a>
+          <a
+            href="https://video-player-component-v2-81gg.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Full deployment
+          </a>
         </div>
       </div>
 

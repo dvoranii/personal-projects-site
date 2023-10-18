@@ -18,7 +18,8 @@ iframe {
 }
 
 .project--content h1 {
-  padding-bottom: 12px;
+  padding-bottom: 4px;
+  margin-bottom: 24px;
 }
 
 .project--content p:nth-child(2) {

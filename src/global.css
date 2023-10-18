@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&family=Roboto+Mono&display=swap");
 
 *,
 *::before,
@@ -16,13 +16,24 @@ body {
 
 p {
   font-size: clamp(12px, 2vw, 16px);
-  font-family: "Montserrat";
+  font-family: "Roboto Mono";
 }
 
 ul {
-  font-family: "Montserrat";
+  font-family: "Roboto Mono";
 }
 
 h1 {
   font-size: clamp(24px, 6vw, 32px);
+  font-family: "Roboto";
+  letter-spacing: 0.25px;
+  border-bottom: 2px solid black;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+h3,
+h3 {
+  font-family: "Roboto";
+  letter-spacing: 0.25px;
 }
