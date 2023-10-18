@@ -1,6 +1,7 @@
 // src/data/projectData.js
 import project1Thumb from "/assets/project1-thumb.png";
 import project2Thumb from "/assets/video-component-screenshot.png";
+import project3Thumb from "/assets/dendritic-branching-thumb.png";
 
 const projectData = [
   {
@@ -15,6 +16,12 @@ const projectData = [
     titleURL: "project2",
     thumbnail: project2Thumb,
     description: `This video player is a custom-built web component crafted using vanilla JavaScript and the lit-html library, which offers efficient, expressive, and extensible templates. Instead of relying on out-of-the-box solutions, I took the challenge to build a video player from scratch to understand the intricacies and nuances of media playback in web browsers.`,
+  },
+  {
+    title: "Dendritic Branching Algorithm Visualizer",
+    titleURL: "project3",
+    thumbnail: project3Thumb,
+    description: "This is the dendritic branching app",
   },
 ];
 
