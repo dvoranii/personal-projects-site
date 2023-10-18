@@ -81,7 +81,7 @@ function Project3() {
           </li>
           <li>
             <b>Dynamic Branching:</b> With an 80% probability of branching at
-            each node, coupled with random angles, every &qot;New Branch&qot;
+            each node, coupled with random angles, every &quot;New Branch&quot;
             action offers a unique pattern, demonstrating the varied and
             unpredictable nature of dendritic growth.
           </li>
