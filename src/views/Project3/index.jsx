@@ -85,13 +85,6 @@ function Project3() {
             action offers a unique pattern, demonstrating the varied and
             unpredictable nature of dendritic growth.
           </li>
-          <li>
-            <b>Responsive and Clear UI:</b> The design prioritizes
-            user-friendliness, with clearly demarcated areas for the canvas,
-            input controls, and branching action. This ensures that even those
-            unfamiliar with dendritic branching can engage with the tool
-            effortlessly.
-          </li>
         </ul>
         <br></br>
         <p>
