@@ -18,10 +18,11 @@ const projectData = [
     description: `This video player is a custom-built web component crafted using vanilla JavaScript and the lit-html library, which offers efficient, expressive, and extensible templates. Instead of relying on out-of-the-box solutions, I took the challenge to build a video player from scratch to understand the intricacies and nuances of media playback in web browsers.`,
   },
   {
-    title: "Dendritic Branching Algorithm Visualizer",
+    title: "Dendritic Branching Visualizer: Nature's Pattern at Play",
     titleURL: "project3",
     thumbnail: project3Thumb,
-    description: "This is the dendritic branching app",
+    description:
+      "Dive into the captivating world of dendritic branching, a pattern that's mirrored everywhere around us. It's in the mesmerizing dance of lightning bolts, the intricate networks of our brain cells, the sprawling roots of plants, and even the unseen mycelial networks below our feet. Our visualizer lets you play with this natural phenomenon. For the best experience, pick a minimum branch value of 0, 1, or 2 and max it out at 10. But remember, as you inch closer to 10, things might get a tad slower due to all the computations. Happy branching!",
   },
 ];
 
