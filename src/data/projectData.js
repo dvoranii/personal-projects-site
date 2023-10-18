@@ -22,7 +22,7 @@ const projectData = [
     titleURL: "project3",
     thumbnail: project3Thumb,
     description:
-      "Dive into the captivating world of dendritic branching, a pattern that's mirrored everywhere around us. It's in the mesmerizing dance of lightning bolts, the intricate networks of our brain cells, the sprawling roots of plants, and even the unseen mycelial networks below our feet. Our visualizer lets you play with this natural phenomenon. For the best experience, pick a minimum branch value of 0, 1, or 2 and max it out at 10. But remember, as you inch closer to 10, things might get a tad slower due to all the computations. Happy branching!",
+      "Ever wonder about the magic behind lightning bolts, brain cell networks, plant roots, or mycelial connections? They all share a mesmerizing pattern - dendritic branching. Here's a closer look at how our visualizer brings this pattern to life:",
   },
 ];
 
